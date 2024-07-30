@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 28196802  # integer value, dont use ""
+    API_HASH = "dccf92fd1c0bad1b7de1e8efc63654ff"
+    TOKEN = "6820690284:AAELNx-2cuz7UNUtDGsV-GaEHySNQe2iUGQ"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    OWNER_USERNAME = "VergilGfx"
+    SUPPORT_CHAT = "Ikigai_Chats"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -10012227200116
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1002219564769
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "mongodb+srv://bankai:1234@cluster0.by2xwnl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
